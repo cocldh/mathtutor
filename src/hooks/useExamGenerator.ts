@@ -8,7 +8,7 @@ const CLAUDE_MODEL = 'claude-sonnet-4-20250514';
 
 // ⚠️ 실제 배포 시 환경변수(import.meta.env.VITE_ANTHROPIC_API_KEY)로 교체 필요
 // 현재는 로컬 개발 편의를 위해 직접 입력하도록 함.
-const API_KEY = 'YOUR_API_KEY_HERE';
+const API_KEY = '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';
 
 // Claude 응답에서 마크다운 코드블록/주변 텍스트 제거 후 JSON 파싱
 function extractJson(raw: string): unknown {
